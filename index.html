@@ -4,10 +4,66 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="/src/css/styles.css" />
+
+    <!-- Title -->
     <title>Vitor Linaris</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <main class="container">
+      <header>
+        <img src="./public/img/perfil.jpg" alt="" />
+        <h1>Vitor <span>Linaris</span></h1>
+        <p>
+          Criadora de conteúdo, escritora e professora de história. Conheça o
+          meu trabalho 👇🏽
+        </p>
+      </header>
+
+      <div class="section-links">
+        <ul>
+          <li class="link">
+            <a href="#"><span>Livro:</span> O cotidiano do Brasil</a>
+          </li>
+          <li class="link">
+            <a href="#">Meu último vídeo</a>
+          </li>
+          <li class="link">
+            <a href="#">Portfólio</a>
+          </li>
+          <li class="link">
+            <a href="#">Agenda</a>
+          </li>
+        </ul>
+      </div>
+
+      <footer>
+        <ul class="social-links">
+          <li class="social-link">
+            <img src="/public/svg/github.svg" alt="" />
+          </li>
+          <li class="social-link">
+            <img src="/public/svg/instagram.svg" alt="" />
+          </li>
+          <li class="social-link">
+            <img src="/public/svg/linkedin.svg" alt="" />
+          </li>
+          <li class="social-link">
+            <img src="/public/svg/dribbble.svg" alt="" />
+          </li>
+        </ul>
+      </footer>
+    </main>
+
+    <script type="module" src="/src/js/main.js"></script>
   </body>
 </html>
